@@ -1,0 +1,4 @@
+Server-side rendering:
+1. send state of app along the response (so that client also has access to data to match the server markup)
+    - create a fresh new Redux store instance on every request 
+    - optionally dispatch some actions
