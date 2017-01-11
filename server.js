@@ -15,6 +15,7 @@ app.use(handleRender);
 function handleRender (req, res) {
 	const store = createStore(counterApp);
 
+//render the component to a string for SEO crawler and performance boost
 const html = renderToString(
 	<Provider store={store}>
 	  <App />
