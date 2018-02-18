@@ -3,8 +3,8 @@ import Express from 'express'
 import React from 'react'
 import { createStore } from 'redux'
 import { Provider } from 'react-redux'
-// import counterApp from './reducers'
-// import App from 'src/'
+import counterApp from './reducers'
+import App from 'src/'
 import { renderToString } from 'react-dom/server';
 
 const app = Express();
